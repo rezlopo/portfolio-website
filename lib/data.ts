@@ -1,8 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import travelAgencyWebImg from "@/public/Travel Agency.png";
+import portfolioWebsite from "@/public/PortfolioWebsite.png";
 import toDoAppImg from "@/public/ToDoApp.png";
 import weatherAppImg from "@/public/WeatherApp.png";
 
@@ -35,73 +34,98 @@ export const links = [
 
 export const experiencesData = [
 	{
-		title: "Graduated bootcamp",
-		location: "Miami, FL",
+		title: "Front-End developer - Infranet razvoj d.o.o.",
+		location: "Zagreb, HR",
 		description:
-			"I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-		icon: React.createElement(LuGraduationCap),
-		date: "2019",
-	},
-	{
-		title: "Front-End Developer",
-		location: "Orlando, FL",
-		description:
-			"I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+			"As a front-end developer, I coded, designed and redesigned sites & apps using HTML5, CSS3, JS, React and Figma. I coded the components using TypeScript and React. I used Git and Azure DevOps daily for sprints, tasks, code reviews, PR.",
 		icon: React.createElement(CgWorkAlt),
-		date: "2019 - 2021",
+		date: "2021 - Present",
 	},
 	{
-		title: "Full-Stack Developer",
-		location: "Houston, TX",
+		title: "Service Engineer - Siemens Healthcare d.o.o",
+		location: "Zagreb, HR",
 		description:
-			"I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-		icon: React.createElement(FaReact),
-		date: "2021 - present",
+			"Troubleshooting, maintenence, start up, commissioning for healtcare systems (XP,AP,MR,CT) .Installation, troubleshooting and administering Windows server 2016. Networking for healthcare product (XP,AP,MR,CT)",
+		icon: React.createElement(CgWorkAlt),
+		date: "2018 - 2021",
+	},
+	{
+		title: "Commissioning support engineer - Areva NP",
+		location: "Olkiluoto, FI",
+		description:
+			"Continuity test checklist, testing hv and lv distribution system, testing 3-phase electrical motors in nuclear power plant.",
+		icon: React.createElement(CgWorkAlt),
+		date: "2017 - 2018",
+	},
+
+	{
+		title: "Electrician - Zakladani staveb s.r.o",
+		location: "Zagreb, HR",
+		description:
+			"Maintenance and servicing of three-phase electric pumps. Develop and connecting the distribution control board desing in Eplan.",
+		icon: React.createElement(CgWorkAlt),
+		date: "2015 - 2017",
+	},
+
+	{
+		title: "Mag. ing. el. (M.Sc.El - automation and systems)",
+		location: "Split, HR",
+		description:
+			"Graduated from Faculty of Electrical Mechanical Engineering and Naval Architecture (FESB), Split",
+		icon: React.createElement(LuGraduationCap),
+		date: "2015",
 	},
 ] as const;
 
 export const projectsData = [
 	{
-		title: "CorpComment",
+		title: "Portfolio",
 		description:
-			"I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-		tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-		imageUrl: travelAgencyWebImg,
+			"Portfolio page made using HTML5, CSS, JS. It has a couple of SVG animations and it is responsive",
+		tags: [
+			"HTML5",
+			"CSS3",
+			"SASS",
+			"Animations",
+			"Responsive Design",
+			"Accessibility",
+			"Flexbox",
+			"CSS Grid",
+		],
+		imageUrl: portfolioWebsite,
 	},
 	{
-		title: "rmtDev",
+		title: "ToDo List",
 		description:
-			"Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-		tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+			"A simple and Todo List web app built using CSS and JavaScript. The app allows users to create, manage, and save todos",
+		tags: ["JavaScript", "HTML5", "CSS", "Animations", "Local storage"],
 		imageUrl: toDoAppImg,
 	},
 	{
-		title: "Word Analytics",
+		title: "Weather App",
 		description:
-			"A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-		tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+			"A Weather App build with HTML, CSS, and JavaScript where users can enter any city name to get weather forecast using JavaScript API",
+		tags: ["JavaScript", "HTML5", "CSS", "API"],
 		imageUrl: weatherAppImg,
 	},
 ] as const;
 
 export const skillsData = [
-	"HTML",
-	"CSS",
+	"HTML5",
+	"CSS3",
 	"JavaScript",
 	"TypeScript",
 	"React",
-	"Next.js",
-	"Node.js",
 	"Git",
+	"Azure DevOps",
 	"Tailwind",
-	"Prisma",
-	"MongoDB",
-	"Redux",
-	"GraphQL",
-	"Apollo",
-	"Express",
-	"PostgreSQL",
-	"Python",
-	"Django",
+	"Bootstrap",
+	"Shopify",
+	"Liquid",
+	"Figma",
+	"Responsive Design",
+	"Web Animations",
+	"Flexbox",
+	"CSS Grid",
 	"Framer Motion",
 ] as const;
