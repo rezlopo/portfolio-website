@@ -34,7 +34,7 @@ export default function Intro() {
 						}}
 					>
 						<Image
-							src={"/avatar.jpg"}
+							src={"/profile-img.png"}
 							alt="avatar"
 							width={192}
 							height={192}
@@ -107,7 +107,7 @@ export default function Intro() {
 				</a>
 
 				<a
-					href="www.linkedin.com/in/zdenek-opolzer"
+					href="https://www.linkedin.com/in/zdenek-opolzer"
 					target="_blank"
 					className="bg-white dark:bg-white/10 dark:text-white/80 cursor-pointer border-black/10 text-gray-700  p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 transition border active:scale-105"
 				>

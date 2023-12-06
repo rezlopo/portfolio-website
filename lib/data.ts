@@ -45,7 +45,7 @@ export const experiencesData = [
 		title: "Service Engineer - Siemens Healthcare d.o.o",
 		location: "Zagreb, HR",
 		description:
-			"Troubleshooting, maintenence, start up, commissioning for healtcare systems (XP,AP,MR,CT) .Installation, troubleshooting and administering Windows server 2016. Networking for healthcare product (XP,AP,MR,CT)",
+			"Troubleshooting, maintenance, start up, commissioning for healthcare systems (XP,AP,MR,CT) .Installation, troubleshooting and administering Windows server 2016. Networking for healthcare product (XP,AP,MR,CT)",
 		icon: React.createElement(CgWorkAlt),
 		date: "2018 - 2021",
 	},
@@ -62,7 +62,7 @@ export const experiencesData = [
 		title: "Electrician - Zakladani staveb s.r.o",
 		location: "Zagreb, HR",
 		description:
-			"Maintenance and servicing of three-phase electric pumps. Develop and connecting the distribution control board desing in Eplan.",
+			"Maintenance and servicing of three-phase electric pumps. Develop and connecting the distribution control board design in Eplan.",
 		icon: React.createElement(CgWorkAlt),
 		date: "2015 - 2017",
 	},
